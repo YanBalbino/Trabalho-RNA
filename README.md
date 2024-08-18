@@ -7,5 +7,5 @@ rede neural do tipo percepetron de múltiplas camadas (MLP) para resolver o prob
 - Não é permitido utilização de bibliotecas (ex: Weka, Toolbox do Matlab, Tensorfow, 
 JupiterNotebook, etc).
 - Dicas:
-- Usar função não linear na camada oculta.
-- Testar diversas configurações
+  - Usar função não linear na camada oculta.
+  - Testar diversas configurações
