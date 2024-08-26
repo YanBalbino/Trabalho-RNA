@@ -8,7 +8,7 @@ def algoritmoGenetico(qtGeracoes, tamanhoPopulacao=20):
     melhores_scores = [] # lista das avaliações dos melhores de cada geração
 
     for geracao in range(qtGeracoes):
-        avaliacoes = [utils.funcaoAvaliacao(individuo) or 0.001 for individuo in populacao] # avalia a população
+        avaliacoes = [utils.funcaoAvaliacao(individuo) or 0.0001 for individuo in populacao] # avalia a população e evita uma avaliação perfeita
 
         avaliacoesInv = [1 / avaliacao for avaliacao in avaliacoes] # inverte os valores para que o menor valor seja o melhor
 
